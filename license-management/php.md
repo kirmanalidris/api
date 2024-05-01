@@ -27,9 +27,10 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 
 Parameter | Default | Description
 --------- | ------- | -----------
-license_key | false | If set to true, the admin_id | null | required 
-domain | [] | optional
-action | null | required ```activte``` ```deactivate```
+license_key | false | user license for activate.
+admin_id | null | required.
+domain | [] | optional.
+action | null | required ```activte``` ```deactivate```.
 
 
 ```php
