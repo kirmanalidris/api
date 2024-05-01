@@ -53,7 +53,7 @@ $response = curl_exec($ch);
 curl_close($ch);
 
 // Proses respons di sini
-echo $response;
+echo json_encode($response);
 
 ```
 
