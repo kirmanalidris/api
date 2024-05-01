@@ -92,6 +92,53 @@ echo json_encode($response);
 
 
 
+# list product
+### HTTP Request
+
+`POST https://kirmanalidris.com/app/license/api/list_product`
+
+### Query Parameters
+
+Parameter | Default | Description
+--------- | ------- | -----------
+admin_id | null | apikey or admin_id obtained from kirmanalidris.com. (required).
+
+
+```php
+$url = 'https://kirmanalidris.com/app/license/api/list_product';
+$data = array(
+    'admin_id' => 1234567890, // admin ID obtained from kirmanalidris.com
+    );
+
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Proses respons di sini
+echo json_encode($response);
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Kittens
 
 ## Get All Kittens
