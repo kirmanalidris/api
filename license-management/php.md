@@ -54,10 +54,10 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 ```php
 $url = 'https://kirmanalidris.com/app/license/api/validate_license';
 $data = array(
-    'license_key' => 'QwRouIU7XJlpWKNVIjT0',
-    'product_base_name' => 'plugin-custom-update',
-    'admin_id' => 1, // id admin yang didapatkan dari kirmanalidris.com (berfungsi untuk memastikan bahwa produk ini milik admin tersebut)
-    'domain' => 'app.kirmanalidris.id',
+    'license_key' => 'user_license_key',
+    'product_base_name' => 'name-folder-of-script',
+    'admin_id' => 1234567890, // admin ID obtained from kirmanalidris.com
+    'domain' => 'app.kirmanalidris.id'
     'action' => 'activate', // activate or deactivate
 );
 
