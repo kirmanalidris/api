@@ -58,6 +58,25 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 > To authorize, use this code:
 
 ```php
+$url = 'https://kirmanalidris.com/app/license/api/validate_license';
+$data = array(
+    'license_key' => 'QwRouIU7XJlpWKNVIjT0',
+    'product_base_name' => 'plugin-custom-update',
+    'admin_id' => 1, // id admin yang didapatkan dari kirmanalidris.com (berfungsi untuk memastikan bahwa produk ini milik admin tersebut)
+    'domain' => 'app.kirmanalidris.id',
+    'action' => 'activate', // activate or deactivate
+);
+
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Proses respons di sini
+echo $response;
 
 ```
 
