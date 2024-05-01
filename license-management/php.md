@@ -58,7 +58,7 @@ echo $response;
 ```
 
 ## response
-```
+```json
 {
   "response": 1,
   "message": "license ok",
