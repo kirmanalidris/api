@@ -57,6 +57,38 @@ echo $response;
 
 ```
 
+## response
+```
+{
+  "response": 1,
+  "message": "license ok",
+  "admin_id": "54378534428734365",
+  "id": "1",
+  "client_id": "1",
+  "product_id": "1",
+  "product_base_name": "plugin-custom-update",
+  "license_id": "1",
+  "purchase_key": "4t2i34L10AQaWV8hVTFeK",
+  "user_domain": "[]",
+  "server_ip": "",
+  "current_version": "",
+  "using_version": "",
+  "license_title": "",
+  "max_domain": "10",
+  "is_unlimited": "no",
+  "verification_required": "",
+  "has_expiry": "no",
+  "expiry_time": "2024-04-21 15:30:00",
+  "has_support": "yes",
+  "support_end_time": "2025-04-21 15:30:00",
+  "entry_time": "2024-05-01 17:58:24",
+  "active_time": "2024-05-01 17:58:24",
+  "request_counter": "5",
+  "request_delay_time": "60",
+  "status": "active"
+}
+
+```
 
 
 
