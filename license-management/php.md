@@ -28,6 +28,7 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 Parameter | Default | Description
 --------- | ------- | -----------
 license_key | false | user license for activate.
+product_base_name | null | script folder name
 admin_id | null | required.
 domain | [] | optional.
 action | null | required ```activte``` ```deactivate```.
