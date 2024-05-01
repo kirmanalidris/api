@@ -12,15 +12,12 @@ This example API documentation page was created with [Slate](https://github.com/
 # Add new lincese
 ### HTTP Request
 
-`POST
-https://kirmanalidris.com/app/license/api/add_license`
+`POST https://kirmanalidris.com/app/license/api/add_license`
 
 > To authorize, use this code:
 
-```ruby
-require 'kittn'
+```php
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
 ```
 
 ```python
@@ -52,6 +49,20 @@ Kittn expects for the API key to be included in all API requests to the server i
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
+
+# Validate lincese
+### HTTP Request
+
+`POST https://kirmanalidris.com/app/license/api/validate_license`
+
+> To authorize, use this code:
+
+```php
+
+```
+
+
+
 
 # Kittens
 
