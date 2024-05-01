@@ -28,9 +28,9 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 Parameter | Default | Description
 --------- | ------- | -----------
 license_key | false | user license for activate.
-product_base_name | null | script folder name
-admin_id | null | required.
-domain | [] | optional.
+product_base_name | null | script folder name.
+admin_id | null | apikey or admin_id obtained from kirmanalidris.com. (required).
+domain | [] | user domain to be activated user domain to be activated (optional).
 action | null | required ```activte``` ```deactivate```.
 
 
