@@ -69,7 +69,7 @@ echo json_encode($response);
   "product_base_name": "plugin-custom-update",
   "license_id": "1",
   "purchase_key": "4t2i34L10AQaWV8hVTFeK",
-  "user_domain": "[]",
+  "user_domain": "['domain.com','domain.net','domain.id']",
   "server_ip": "",
   "current_version": "",
   "using_version": "",
