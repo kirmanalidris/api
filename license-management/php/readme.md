@@ -57,7 +57,7 @@ echo json_encode($response);
 
 ```
 
-## response
+## response success 
 ```json
 {
   "response": 1,
