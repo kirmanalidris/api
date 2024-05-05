@@ -14,6 +14,25 @@ Update your WordPress themes and plugins easily and safely
 
 ```
 
+
+# View lincese
+### HTTP Request
+
+`POST https://kirmanalidris.com/app/license/api/view_license`
+
+> Displays license data based on license code 
+
+```php
+
+```
+
+## response data
+```json
+
+```
+
+
+
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
