@@ -266,5 +266,35 @@ echo json_encode($response);
 
 ---------------------------------------------------
 
+## Client add 
+```POST http://kirmanalidris.com/app/license/api/add_client```
+
+parameter | default | description
+----------|---------|--------------
+admin_id | null | required. 
+client_name | null | required.
+email | null | required.
+phone | null | required.
+
+### response
+```json
+{
+  "status": "1",
+  "message": "client added0",
+  "response": {
+    "client_id": 10 //current insert id
+  }
+}
+```
+
+
+### response failed
+```json
+{
+  "status": "0",
+  "message": "Email exist"
+}
+```
+
 
 
