@@ -8,9 +8,42 @@ Update your WordPress themes and plugins easily and safely
 
 `POST https://kirmanalidris.com/app/license/api/add_license`
 
+parameter | default | description
+client_id | null | required
+product_id | null | required
+product_base_name | null | required
+license_id | null | required
+purchase_key | null | required
+user_domain | null | required
+server_ip | null | required
+current_version | null | required
+using_version | null | required
+license_title | null | required
+max_domain | null | required
+is_unlimited | null | required
+verification_required | null | required
+has_expiry | null | required
+expiry_time | null | required
+has_support | null | required
+support_end_time | null | required
+entry_time | null | required
+active_time | null | required
+request_counter | null | required
+request_delay_time | null | required
+status | null | required
 
 ```php
 
+```
+### response 
+```json
+{
+  "status": 1,
+  "message": "license added",
+  "response": {
+    "license_id": 13 //current insert license id
+  }
+}
 ```
 
 
