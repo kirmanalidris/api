@@ -8,7 +8,6 @@ Update your WordPress themes and plugins easily and safely
 
 `POST https://kirmanalidris.com/app/license/api/add_license`
 
-> To authorize, use this code:
 
 ```php
 
@@ -22,13 +21,44 @@ Update your WordPress themes and plugins easily and safely
 
 > Displays license data based on license code 
 
+Parameter | Default | Description
+--------- | ------- | -----------
+license_key | false | user license to check.
+admin_id | null | apikey or admin_id obtained from kirmanalidris.com. (required).
 ```php
 
 ```
 
 ## response data
 ```json
-
+{
+  "response": 1,
+  "message": "license ok",
+  "admin_id": "543785342873436",
+  "id": "1",
+  "client_id": "1",
+  "product_id": "1",
+  "product_base_name": "plugin-custom-update",
+  "license_id": "1",
+  "purchase_key": "OdnA5VezyKJonCxTlqFd",
+  "user_domain": "[\"app.kirmanalidris.com\",\"test.kirmanalidris.com\"]",
+  "server_ip": "",
+  "current_version": "",
+  "using_version": "",
+  "license_title": "",
+  "max_domain": "2",
+  "is_unlimited": "no",
+  "verification_required": "",
+  "has_expiry": "no",
+  "expiry_time": "2024-04-21 15:30:00",
+  "has_support": "unlimited",
+  "support_end_time": "2024-04-21 15:30:00",
+  "entry_time": "2024-05-05 12:19:07",
+  "active_time": "2024-05-05 12:19:07",
+  "request_counter": "5",
+  "request_delay_time": "60",
+  "status": "active"
+}
 ```
 
 
