@@ -54,6 +54,7 @@ echo json_encode($response);
 }
 ```
 
+-----------------------------------
 
 # View lincese
 ### HTTP Request
@@ -103,10 +104,7 @@ admin_id | null | apikey or admin_id obtained from kirmanalidris.com. (required)
 ```
 
 
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
+-------------------------------------------------
 
 # Validate lincese
 ### HTTP Request
@@ -180,7 +178,7 @@ echo json_encode($response);
 
 ```
 
----
+----------------------------------------
 
 
 # list product
@@ -217,8 +215,47 @@ echo json_encode($response);
 ## response
 
 ```json
-
-
+[
+  {
+    "admin_id": "543785342873436",
+    "id": "1",
+    "name": "Plugin custom update",
+    "product_base_name": "plugin-custom-update",
+    "type": "plugin",
+    "product_url": null,
+    "is_premium": "yes"
+  },
+  {
+    "admin_id": "543785342873436",
+    "id": "2",
+    "name": "theme custom update",
+    "product_base_name": "theme-custom-update",
+    "type": "theme",
+    "product_url": null,
+    "is_premium": "yes"
+  },
+  {
+    "admin_id": "543785342873436",
+    "id": "3",
+    "name": "lp6",
+    "product_base_name": "lp6-kirmanalidris",
+    "type": "theme",
+    "product_url": null,
+    "is_premium": "yes"
+  },
+  {
+    "admin_id": "543785342873436",
+    "id": "4",
+    "name": "wpwalogin",
+    "product_base_name": "wpwalogin-kirmanalidris",
+    "type": "plugin",
+    "product_url": null,
+    "is_premium": "yes"
+  }
+]
 ```
 
----
+---------------------------------------------------
+
+
+
