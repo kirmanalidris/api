@@ -3,35 +3,24 @@ Management license for your wordpress theme or plugin /php/javascript
 
 Update your WordPress themes and plugins easily and safely 
 
+> All request body type is ```application/x-www-form-urlencoded```
+
 # Add new lincese
 ### HTTP Request
 
 `POST https://kirmanalidris.com/app/license/api/add_license`
-
 parameter | default | description
-client_id | null | required
-product_id | null | required
-product_base_name | null | required
-license_id | null | required
-purchase_key | null | required
-user_domain | null | required
-server_ip | null | required
-current_version | null | required
-using_version | null | required
-license_title | null | required
-max_domain | null | required
-is_unlimited | null | required
-verification_required | null | required
-has_expiry | null | required
-expiry_time | null | required
-has_support | null | required
-support_end_time | null | required
-entry_time | null | required
-active_time | null | required
-request_counter | null | required
-request_delay_time | null | required
-status | null | required
-
+----------|---------|------------
+client_id | null | ```license client_id``` required.
+product_id | null | ```license product_id``` required.
+purchase_key | null | required.
+max_domain | null | required.
+is_unlimited | null | required.
+has_expiry | null | required.
+expiry_time | null | required.
+has_support | null | required.
+support_end_time | null | required.
+status | null | ```active``` ```waiting``` ```inactive``` ```refunded``` required.
 ```php
 
 ```
