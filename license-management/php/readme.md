@@ -22,7 +22,26 @@ has_support | null | required.
 support_end_time | null | required.
 status | null | ```active``` ```waiting``` ```inactive``` ```refunded``` required.
 ```php
+$url = 'https://kirmanalidris.com/app/license/api/add_license';
+$data = array(
+  'admin_id'=> '543785342873436',
+  'product_id'=> '1',
+  'client_id'=> '1',
+  'purchase_key'=> 'purchase_key',
+  'max_domain'=> '2',
+  'status'=> 'active',
+   );
 
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Proses respons di sini
+echo json_encode($response);
 ```
 ### response 
 ```json
