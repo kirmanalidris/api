@@ -20,7 +20,7 @@ Update your WordPress themes and plugins easily and safely
 `POST https://kirmanalidris.com/app/license/api/add_license`
 parameter | default | description
 ----------|---------|------------
-client_id | null | ```license client_id``` required.
+client_email | null | ```license client_email``` required.
 product_id | null | ```license product_id``` required.
 purchase_key | null | required.
 max_domain | null | required.
